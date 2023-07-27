@@ -1,0 +1,194 @@
+.nameNav {
+  margin-right: 28rem;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-left: -2rem;
+}
+
+.logoName {
+  margin-right: 1rem;
+}
+
+.navbar {
+  background: linear-gradient(
+    135deg,
+    hsl(246, 100%, 43%),
+    hsl(244, 100%, 24%),
+    hsl(250, 100%, 12%),
+    hsl(0, 0%, 0%)
+  );
+  background-size: 200% 200%;
+  animation: gradient-move 5s ease alternate infinite;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-toggler {
+  color: #fff;
+  border-color: #fff;
+}
+
+.nav-link {
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+nav
+{
+    position: relative;
+    min-width: 350px;
+    min-height: 80px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border-radius: 10px;
+    padding: 0 15px;
+    background: #000;
+    box-shadow:
+    0 6.7px 5.3px rgba(0, 0, 0, 0.12),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.08),
+    0 100px 80px rgba(0, 0, 0, 0.04);
+    overflow: hidden;
+    color: #fff;
+}
+nav ul
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li
+{
+    list-style: none;
+}
+nav ul li a
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+nav ul li a i
+{
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    transition: opacity 100ms ease;
+
+}
+nav ul li a.active i
+{
+    opacity: 1;
+}
+nav .tubelight
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transform: translateX(-50%);
+    width: 45px;
+    height: 5px;
+    border-radius: 5px;
+    background: #fff;
+    transition: left 400ms ease;
+    z-index: 10;
+}
+nav .light-ray
+{
+    position: absolute;
+    left: -30%;
+    top: 5px;
+    width: 160%;
+    height: 80px;
+    background: linear-gradient(to bottom,
+    rgba(255,255,255,0.3) -50%,
+    rgba(255,255,255, 0) 90%);
+    clip-path: polygon(5% 100%, 25% 0px, 75% 0px ,95% 100%);
+    pointer-events: none;
+}
+@keyframes gradient-move {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.navbar-nav {
+  position: relative;
+}
+
+.tubelight {
+  position: absolute;
+  top: calc(100% - 5px);
+  width: 20%;
+  height: 5px;
+  border-radius: 5px;
+  background: #fff;
+  transition: left 400ms ease;
+  z-index: 10;
+}
+
+.light-ray {
+  position: absolute;
+  top: -85px;
+  width: 100%;
+  height: 80px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3) -50%,
+    rgba(255, 255, 255, 0) 90%
+  );
+  clip-path: polygon(5% 100%, 25% 0, 75% 0, 95% 100%);
+  pointer-events: none;
+}
+.nav-link.active {
+  color: #ff0000; /* Example: Change the text color to red */
+  font-weight: bold; /* Example: Make the text bold */
+  /* Add any other desired styles for the active link */
+}
+
+@media (max-width: 767px) {
+  .navbar{
+    width: 99%;
+  }
+  .nameNav {
+    margin-right: -1rem;
+    margin-left: 1vw;
+    font-weight: 500;
+    font-size: rem;
+  }
+  .navbar-nav {
+    flex-direction: column;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 0.5rem;
+  }
+
+  .navbar-toggler {
+    margin-top: 0.5rem;
+  }
+
+  .navbar-collapse {
+    background-color:transparent;
+    padding: 1rem;
+  }
+
+  .navbar-collapse .nav-link {
+    color: #fff;
+    margin-bottom: 0.5rem;
+  }
+  .tubelight {
+    display: none; 
+  }
+}
