@@ -1,0 +1,181 @@
+@media screen and (max-width: 379px) {
+  .project-card-view {
+    border: 2px solid #5e6b5e; /* Set the desired border color */
+    background-color: transparent;
+    border-radius: 8px;
+    font-size: 10px;
+    margin: 2vh;
+    text-align: center;
+    width: 90vw;
+    margin-left: 2vw;
+    height: 60vh;
+    box-shadow: 0 8px 32px 0 rgb(84, 103, 104);
+    position: relative;
+    overflow: hidden;
+  }
+  .mobile-background .laptop-screen .photo {
+    margin-left: 23vw;
+    margin-top: 2.5vh;
+    border-radius: 12px;
+    width: 31vw; /* Adjust the width as per your preference */
+    height: 30vh; /* Maintain the aspect ratio */
+    /* Additional styles for the image within the mobile background */
+  }
+  .project-card-view::before {
+    opacity: 0.6;
+    filter: blur(104px);
+    z-index: -1; 
+  }
+  
+  .laptop-screen {
+    position: relative;
+    margin-top: 1vh;
+    margin-left: 5.5vw;
+    width: 80vw;
+    height: 30vh;
+    background-image: url('laptop.png'); /* Replace with the path to your laptop image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .photo {
+    position: absolute;
+    top: 1.5vh;
+    margin-left: 7.5vw;
+    /* left: 1.4vw; */
+    width: 35vh;
+    height: 22.9vh;
+    background-image: url('./Rohit\ Sharma.png'); /* Replace with the path to your photo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .mobile-background .laptop-screen .photo {
+    margin-left: 4.4vw;
+    margin-top: 3vh;
+    border-radius: 10px;
+    width: 8vw; /* Adjust the width as per your preference */
+    height: 36.9vh; /* Maintain the aspect ratio */
+    /* Additional styles for the image within the mobile background */
+  }
+  .mobile-background .laptop-screen {
+    background-image: url('mobile.png');
+    height: 22vh;
+    margin-top:20vh ; /* Replace with the path to your mobile image */
+    /* Additional styles for the mobile background */
+  }
+}
+.project-card-view {
+    border: 2px solid #08f108;
+    background-color: transparent;
+    border-radius: 8px;
+    font-size: 10px;
+    margin: 2vh;
+    text-align: center;
+    width: 25vw;
+    margin-left: -2vw;
+    height: 80vh;
+    box-shadow: 0 8px 32px 0 rgb(84, 103, 104);
+    position: relative;
+    overflow: hidden;
+  }
+  .mobile-background .laptop-screen {
+    background-image: url('mobile.png');
+    height: 225vh;
+    margin-top:2vh ; /* Replace with the path to your mobile image */
+    /* Additional styles for the mobile background */
+  }
+  .mobile-background .laptop-screen .photo {
+    margin-left: 4.4vw;
+    margin-top: 3vh;
+    border-radius: 10px;
+    width: 8vw; /* Adjust the width as per your preference */
+    height: 36.9vh; /* Maintain the aspect ratio */
+    /* Additional styles for the image within the mobile background */
+  }
+  .project-card-view::before {
+    opacity: 0.6;
+    filter: blur(104px);
+    z-index: -1; 
+  }
+  
+  .laptop-screen {
+    position: relative;
+    margin-top: 1vh;
+    margin-left: 2.5vw;
+    width: 20vw;
+    height: 30vh;
+    background-image: url('laptop.png'); /* Replace with the path to your laptop image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .photo {
+    position: absolute;
+    top: 1.5vh;
+    left: 1.6vw;
+    width: 35.5vh;
+    height: 22.9vh;
+    background-image: url('./Rohit\ Sharma.png'); /* Replace with the path to your photo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  @media screen  and (max-width: 768px) {
+    .project-card-view {
+      border: 2px solid #08f108; /* Set the desired border color */
+      background-color: transparent;
+      border-radius: 8px;
+      font-size: 10px;
+      margin: 2vh;
+      text-align: center;
+      width: 90vw;
+      margin-left: 2vw;
+      height: 60vh;
+      box-shadow: 0 8px 32px 0 rgb(84, 103, 104);
+      position: relative;
+      overflow: hidden;
+    }
+    .mobile-background .laptop-screen .photo {
+      margin-left: 23vw;
+      margin-top:1vh;
+      border-radius: 12px;
+      width: 31vw; /* Adjust the width as per your preference */
+      height: 30vh; /* Maintain the aspect ratio */
+      /* Additional styles for the image within the mobile background */
+    }
+    .project-card-view::before {
+      opacity: 0.6;
+      filter: blur(104px);
+      z-index: -1; 
+    }
+    
+    .laptop-screen {
+      position: relative;
+      margin-top: 1vh;
+      margin-left: 5.5vw;
+      width: 80vw;
+      height: 30vh;
+      background-image: url('laptop.png'); /* Replace with the path to your laptop image */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    
+    .photo {
+      position: absolute;
+      top: 1.5vh;
+      /* margin-left: -vw; */
+      left: 2.8vw;
+      width: 35vh;
+      height: 22.9vh;
+      background-image: url('./Rohit\ Sharma.png'); /* Replace with the path to your photo */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  
+  }
+  

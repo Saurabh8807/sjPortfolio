@@ -1,0 +1,288 @@
+#Home{
+  margin-top: 8vh;
+}
+
+.left{
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 5vw;
+  margin-top: 10vh;
+
+  padding: 40px;
+}
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+span {
+  color: #fbff00;
+  font-weight: bold;
+}
+
+.split-screen {
+  display: flex;
+  align-items: center;
+}
+
+.split-screen__half {
+  flex-basis: 50%;
+  padding: 2rem;
+}
+
+.logo1 {
+  width: 30vw;
+  margin-left: 6vw;
+  margin-bottom: 2rem;
+}
+.social-icons,
+li {
+margin: 0;
+padding: 0;
+}
+
+.social-icons,
+li {
+list-style: none;
+}
+
+.main {
+display: flex;
+align-items: center;
+justify-content: center;
+
+position: relative;
+z-index: 25;
+}
+
+.social-icons{
+display: flex;
+margin-top: 2vh;
+margin-left: -17vw;
+}
+
+.a{
+margin-left: 2vw;
+}
+.a {
+position: relative;
+display: block;
+color: white;
+width: 64px;
+height: 64px;
+font-size: 36px;
+text-align: center;
+line-height: 66px;
+border-radius: 50%;
+/* background: #2c3a47; */
+transition: 0.6s;
+}
+
+.a:hover {
+cursor: pointer;
+text-shadow: 0 0 4px cyan;
+}
+
+
+.a::before {
+content: "";
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+border-radius: 50%;
+/* background: #25ccf7; */
+transition: 0.6s;
+transform: scale(0.8);
+z-index: -1;
+}
+
+.a:hover::before {
+box-shadow: 0 0 14px 2px #25ccf7;
+transform: scale(1.05);
+}
+
+.svg-icon {
+transition: 0.6s;
+filter: invert(1);
+}
+
+.a:hover .svg-icon {
+filter: invert(1) drop-shadow(0 0 2px rgb(0, 8, 10));
+}
+
+/* Add styles to make the button transparent and stylish */
+.download-button {
+/* display: inline-block; */
+background-color: transparent;
+border: 2px solid #ffffff; /* Set the border color */
+color: #ffffff; /* Set the text color */
+padding: 10px 20px;
+font-size: 16px;
+margin-top: 2vh;
+margin-left:42vw;
+margin-bottom: 10vh;
+justify-content: center;
+text-decoration: none; 
+cursor: pointer;
+transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.download-button:hover {
+background-color: #070024; /* Change the background color on hover */
+color: #fcfcfc; /* Change the text color on hover */
+border-color: #00ebfc; 
+transform: scale(1.05);/* Change the border color on hover */
+}
+
+
+@media (max-width: 512px) {
+#Home{
+  margin-top: 6vh;
+}
+.ul {
+flex-direction: column;
+}
+/* Add styles to make the button transparent and stylish */
+.download-button {
+/* display: inline-block; */
+background-color: transparent;
+border: 2px solid #ffffff; /* Set the border color */
+color: #ffffff; /* Set the text color */
+padding: 10px 20px;
+font-size: 16px;
+margin-top: -15vh;
+margin-left:28vw;
+margin-bottom: 15vh;
+justify-content: center;
+text-decoration: none; 
+cursor: pointer;
+transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.download-button:hover {
+background-color: #08002c; /* Change the background color on hover */
+color: #fcfcfc; /* Change the text color on hover */
+border-color: #2b9da5; /* Change the border color on hover */
+}
+
+
+.ul li {
+margin: 18px 0;
+}
+.split-screen {
+  flex-direction: column;
+}
+
+.split-screen__half {
+  margin-top: 25rem;
+  margin-bottom: -12rem;
+  flex-basis: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+
+.logo1 {
+  margin-top: -100rem;
+  width: 80vw;
+  height: 40vh;
+  margin-left:-2vw ;
+}
+.button {
+  display: inline-block; /* Add this to make the button appear in a straight single line */
+  background-color: transparent;
+  border: 2px solid #ffffff; /* Set the border color */
+  color: #ffffff; /* Set the text color */
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.rect {
+  /* height: vh; */
+  display: none;
+}
+
+.star {
+  margin-left: 25vw;
+  width: 75vw;
+}
+
+/* (Optional) If you want the button to span the entire width of the container */
+.star a.button {
+margin-top: -7vh;
+  width: 90vw;
+  margin-bottom: 5vh;
+  margin-left: 5vw;
+  display: flex;
+  justify-content: center;
+}
+
+}
+.star{
+  margin-left: -2vw;
+  width: 75vw; 
+
+
+}
+
+.rect{
+width:25vw;
+height:6vh
+}
+.button {
+  margin-top: -3vh;
+  margin-bottom: 3vh;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 2.5rem;
+  margin-left: 6vw;
+  width: 25%;
+  letter-spacing: 0.3rem;
+  font-weight: 600;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  transition: all 1s ease-in;
+}
+
+.button:hover {
+  color: #FF9950;
+}
+
+.button svg {
+  height: 40px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+}
+.star {
+  margin-left: -1vw;
+}
+.button rect {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 0.4vw;
+  stroke-dasharray: 45%, 0;
+  transition: all 0.5s linear;
+}
+
+.button:hover rect {
+  stroke-width: 1vw;
+  stroke-dasharray: 2%, 30%;
+  stroke-dashoffset: 4.8%;
+  stroke: #FF9950;
+  transition: all 2s cubic-bezier(0.22, 1, 0.25, 1);
+}

@@ -1,0 +1,127 @@
+.animation-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    /* background: linear-gradient(to bottom, rgb(1, 1, 73),rgb(10, 12, 146)); */
+    background-color: rgb(1, 1, 73);
+    border-radius: 50%;
+    animation: expandCircle 2s ease-in-out forwards;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  
+  .text-containerAnim {
+    text-align: center;
+    margin-top: -100px;
+    z-index: 1;
+    color: white;
+  }
+  
+  .hexagon {
+    width: 220px;
+    height: 250px;
+    border-color: white;
+    border: 10px solid;
+    /* background: linear-gradient(to bottom, rgb(1, 1, 73),rgb(10, 12, 146)); */
+
+    /* background-color:  rgb(1, 1, 73); */
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 3vh;
+    clip-path: polygon(
+      50% 0%,
+      82% 10%,
+      100% 35%,
+      100% 70%,
+      82% 90%,
+      50% 100%,
+      18% 90%,
+      0% 70%,
+      0% 35%,
+      18% 10%
+    );
+  }
+  
+  .logo {
+    margin-left: -6.2vw;
+    size: 100px;
+    margin-top: -3vh;
+    width: 27vw;
+    height: 38vh;
+    /* object-fit: cover; */
+    
+  }
+  
+  .name {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  @keyframes expandCircle {
+    0% {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+    100% {
+      width: 100vw;
+      height: 100vh;
+      border-radius: 0;
+    }
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .logo {
+      margin-left: -12.2vw;
+      size: 100px;
+      /* margin-top:0.5vh; */
+      width: 85vw;
+      height: 38vh;
+      /* object-fit: cover; */
+      
+    }
+    .hexagon {
+      width: 280px;
+      height: 350px;
+      border-color: white;
+      border: 10px solid;
+      /* background: linear-gradient(to bottom, rgb(1, 1, 73),rgb(10, 12, 146)); */
+  
+      /* background-color:  rgb(1, 1, 73); */
+      position: relative;
+      margin: 0 auto;
+      margin-bottom: 3vh;
+      clip-path: polygon(
+        50% 0%,
+        82% 10%,
+        100% 35%,
+        100% 70%,
+        82% 90%,
+        50% 100%,
+        18% 90%,
+        0% 70%,
+        0% 35%,
+        18% 10%
+      );
+    }
+    
+  }

@@ -1,0 +1,81 @@
+#Achievements {
+    padding: 20px;
+  }
+  #Achievements h2{
+    margin-top: 4vh;
+    margin-left: 20vw;
+  }
+  .certificates-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .certificate1,
+  .certificate2 {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .certificate1 img,
+  .certificate2 img {
+    width: 100%;
+    height: auto;
+    margin-top: 5vh;
+    margin-bottom: 10px;
+  }
+  
+  .certificate1 h3,
+  .certificate2 h3 {
+    color: white;
+    margin: 0;
+  }
+   
+  
+  @media screen and (min-width: 768px) {
+    #Achievements {
+        padding: 20px;
+      }
+      #Achievements h2{
+        margin-top: 4vh;
+        margin-left: 39vw;
+      }
+      .certificates-container {
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .certificate1{
+        text-align: center;
+      }
+    
+      .certificate2{
+        text-align: center;
+      }
+      
+      .certificate1 img {
+        display: flex;
+        margin-top: 5vh;
+        margin-left: 7vw;
+        width: 450px;
+        height: auto;
+        margin-bottom: 10px;
+      }
+      .certificate2 img {
+        display: flex;
+        width: 450px;
+        height: auto;
+        margin-top: -55vh;
+        margin-left: 55vw;
+        margin-bottom: 10px;
+      }
+      .certificate1 h3 {
+        color: white;
+        margin-left: -50vw;
+      }
+      .certificate2 h3 {
+        color: white;
+        margin-left: 45vw;
+      }
+  }
+  

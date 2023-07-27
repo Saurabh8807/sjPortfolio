@@ -1,0 +1,61 @@
+.skillBackground {
+  margin-left: -5vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.glass {
+  cursor: pointer;
+  width: 18vw;
+  height: 25vh;
+  margin: 2vh;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(100px);
+  box-shadow: 0 8px 32px 0 rgba(27, 0, 500, 1000.1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+}
+
+.glass:hover {
+  transform: scale(1.05);
+}
+
+.logo2 {
+  font-size: 6em;
+  color: #fff;
+}
+
+p {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .skillBackground {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:5vw ;
+    justify-content: center;
+  }
+
+  .glass {
+    width: calc(50% - 4vh);
+    max-width: 300px;
+    height: auto;
+    margin:1vh;
+  }
+
+  .logo2 {
+    font-size: 4em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+}

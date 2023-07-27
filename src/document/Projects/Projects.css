@@ -1,0 +1,29 @@
+.project-section {
+    padding-top: 5vh;
+  }
+  
+  .project-heading {
+    text-align: center;
+  }
+n
+  .project-card {
+    margin-bottom: 3vh;
+  }
+  .title{
+      margin-left: 20vw;
+  }
+  @media screen and (max-width: 768px) {
+    
+    .project-heading {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .title{
+      margin-left: 5vw;
+      text-align: center;
+  }
+    .project-card {
+      padding: 0;
+    }
+  }
+  
