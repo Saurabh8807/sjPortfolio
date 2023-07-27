@@ -81,7 +81,7 @@
     overflow: hidden;
   }
   .mobile-background .laptop-screen {
-    background-image: url('mobile.png');
+    background-image: none;
     height: 225vh;
     margin-top:2vh ; /* Replace with the path to your mobile image */
     /* Additional styles for the mobile background */
