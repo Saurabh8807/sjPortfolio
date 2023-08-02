@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4a6153d0.css",
+    "main.js": "/static/js/main.fd8d3259.js",
+    "static/js/787.d2fc3fae.chunk.js": "/static/js/787.d2fc3fae.chunk.js",
+    "static/media/Hackathon.png": "/static/media/Hackathon.f12a0d532725a1322796.png",
+    "static/media/VNPS.jpeg": "/static/media/VNPS.7bb8da57479752825240.jpeg",
+    "static/media/Rohit Sharma.png": "/static/media/Rohit Sharma.2a1509c22ced1afc3767.png",
+    "static/media/Travelouge.jpeg": "/static/media/Travelouge.7e7f7a23533e2c98efd3.jpeg",
+    "static/media/about.png": "/static/media/about.54e58bb581545c5e45dc.png",
+    "static/media/laptop.png": "/static/media/laptop.bd10a2615fbff95c4c33.png",
+    "static/media/sjLogo.png": "/static/media/sjLogo.f61ff2dd421c9f26a388.png",
+    "static/media/cursor.png": "/static/media/cursor.5dae75921a94cc06d1db.png",
+    "static/media/plant.jpeg": "/static/media/plant.74c279d708e9eec914bb.jpeg",
+    "static/media/mobile.png": "/static/media/mobile.cc5dd79d480ffc3f947c.png",
+    "index.html": "/index.html",
+    "main.4a6153d0.css.map": "/static/css/main.4a6153d0.css.map",
+    "main.fd8d3259.js.map": "/static/js/main.fd8d3259.js.map",
+    "787.d2fc3fae.chunk.js.map": "/static/js/787.d2fc3fae.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a6153d0.css",
+    "static/js/main.fd8d3259.js"
+  ]
+}
